@@ -47,7 +47,8 @@ fun main() {
     if (doc != null) {
         doc.close()
     }
-    for(i in list){
-        println(text.substring(i,))
+    for(i in 0..list.size - 1){
+        println(text.substring(list[0],list[1]-1))
+        list.removeFirst()
     }
 }
